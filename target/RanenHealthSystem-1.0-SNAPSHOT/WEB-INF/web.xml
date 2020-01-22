@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.mycompany.ranenhealthsystem.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>com.mycompany.ranenhealthsystem.Register</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PatientCheck</servlet-name>
+        <servlet-class>com.mycompany.ranenhealthsystem.PatientCheck</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DataServlet</servlet-name>
+        <servlet-class>com.mycompany.ranenhealthsystem.DataServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>patientregister</servlet-name>
+        <servlet-class>com.mycompany.ranenhealthsystem.patientregister</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>patientexamination</servlet-name>
+        <servlet-class>com.mycompany.ranenhealthsystem.patientexamination</servlet-class>
+    </servlet>
+    <servlet>
+        <serv
